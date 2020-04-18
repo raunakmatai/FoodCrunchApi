@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-var Recipe = mongoose.model('recipe',{
+var RoleDescription = mongoose.model('recipe',{
     Id : {type : Number},
     StepNumber : {type: Number},
     Content : {type: String},
@@ -9,3 +9,5 @@ var Recipe = mongoose.model('recipe',{
     Image_Id : {type: Number},
     Recipe_Id : {type : Number}
 });
+
+module.exports = {RoleDescription};

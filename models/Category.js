@@ -4,3 +4,5 @@ var Category = mongoose.model('category',{
     Id : {type : Number},
     Name : {type: String}
 });
+
+module.exports = {Category};

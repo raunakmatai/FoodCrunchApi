@@ -4,3 +4,5 @@ var Role = mongoose.model('role',{
     Id : {type : Number},
     Name : {type: String}
 });
+
+module.exports = {Role};

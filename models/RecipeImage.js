@@ -5,3 +5,5 @@ var RecipeImage = mongoose.model('recipeImage',{
     Name : {type: String},
     Path : {type: String}
 });
+
+module.exports = {RecipeImage};

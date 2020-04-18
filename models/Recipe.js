@@ -8,3 +8,5 @@ var Recipe = mongoose.model('recipe',{
     User_Id : {type: Number},
     isVeg : {type : Boolean}
 });
+
+module.exports = {Recipe};
